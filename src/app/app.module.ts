@@ -11,6 +11,14 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FeedbackComponent } from './components/feedback/feedback.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
+import { CPVCComponent } from './components/Product/cpvc/cpvc.component';
+import { HDPEComponent } from './components/Product/hdpe/hdpe.component';
+import { PlumbingPipesComponent } from './components/Product/PVC-U/plumbing-pipes/plumbing-pipes.component';
+import { ColumnPipesComponent } from './components/Product/PVC-U/column-pipes/column-pipes.component';
+import { SWRComponent } from './components/Product/RigidPvc/swr/swr.component';
+import { AgriPipesComponent } from './components/Product/RigidPvc/agri-pipes/agri-pipes.component';
+import { ProductComponent } from './components/Product/product.component';
+import { GlobalPresenceComponent } from './components/global-presence/global-presence.component';
 
 
 @NgModule({
@@ -23,7 +31,15 @@ import { HeaderComponent } from './components/header/header.component';
     PortfolioComponent,
     FeedbackComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    CPVCComponent,
+    HDPEComponent,
+    PlumbingPipesComponent,
+    ColumnPipesComponent,
+    SWRComponent,
+    AgriPipesComponent,
+    ProductComponent,
+    GlobalPresenceComponent
   ],
   imports: [
     BrowserModule,
