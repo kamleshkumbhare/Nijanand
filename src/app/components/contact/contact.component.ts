@@ -16,4 +16,9 @@ export class ContactComponent implements OnInit {
     console.log(">>>>>>>>>>>>>>>>>>")
   }
 
+  onSave(){
+
+    console.log(">>>>>>>>>>>>>>>>>>>>>>>>>1.1")
+  }
+
 }
