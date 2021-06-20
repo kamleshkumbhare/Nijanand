@@ -18,6 +18,7 @@ import { ColumnPipesComponent } from './components/Product/PVC-U/column-pipes/co
 import { SWRComponent } from './components/Product/RigidPvc/swr/swr.component';
 import { AgriPipesComponent } from './components/Product/RigidPvc/agri-pipes/agri-pipes.component';
 import { ProductComponent } from './components/Product/product.component';
+import { GlobalPresenceComponent } from './components/global-presence/global-presence.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { ProductComponent } from './components/Product/product.component';
     ColumnPipesComponent,
     SWRComponent,
     AgriPipesComponent,
-    ProductComponent
+    ProductComponent,
+    GlobalPresenceComponent
   ],
   imports: [
     BrowserModule,
