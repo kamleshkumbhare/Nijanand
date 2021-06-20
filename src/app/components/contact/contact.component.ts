@@ -6,19 +6,21 @@ import { Router } from '@angular/router';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent {
+  public nameValue : any;
 
   constructor(
     private router : Router,
   ) { }
 
   ngOnInit(): void {
-    console.log(">>>>>>>>>>>>>>>>>>")
+
   }
-
-  onSave(){
-
-    console.log(">>>>>>>>>>>>>>>>>>>>>>>>>1.1")
+  sendMessage(){
+    console.log(">>>>>>>>>>>>>>>>>>")
+    alert("ddddddddd")
+    console.log(this.nameValue)
   }
 
 }
+
