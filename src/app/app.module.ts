@@ -17,8 +17,8 @@ import { PlumbingPipesComponent } from './components/Product/PVC-U/plumbing-pipe
 import { ColumnPipesComponent } from './components/Product/PVC-U/column-pipes/column-pipes.component';
 import { SWRComponent } from './components/Product/RigidPvc/swr/swr.component';
 import { AgriPipesComponent } from './components/Product/RigidPvc/agri-pipes/agri-pipes.component';
-import { ProductComponent } from './components/Product/product.component';
 import { GlobalPresenceComponent } from './components/global-presence/global-presence.component';
+import { ProductPageComponent } from './components/Product/product-page/product-page.component';
 
 
 @NgModule({
@@ -38,8 +38,8 @@ import { GlobalPresenceComponent } from './components/global-presence/global-pre
     ColumnPipesComponent,
     SWRComponent,
     AgriPipesComponent,
-    ProductComponent,
-    GlobalPresenceComponent
+    GlobalPresenceComponent,
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,

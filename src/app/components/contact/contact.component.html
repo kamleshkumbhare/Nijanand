@@ -1,94 +1,131 @@
-<app-header></app-header>
 <!DOCTYPE html>
 <html lang="en">
 <body>
 
 <div class="body-inner">
+
+<header id="header" data-fullwidth="true">
+<div class="header-inner">
+<div class="container">
+
+<div id="logo">
+<a href="index.html">
+<span class="logo-default">POLO</span>
+<span class="logo-dark">POLO</span>
+</a>
+</div>
+
+
+<div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
+<form class="search-form" action="search-results-page.html" method="get">
+<input class="form-control" name="q" type="text" placeholder="Type & Search...">
+<span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+</form>
+</div>
+
+<div id="mainMenu-trigger">
+<a class="lines-button x"><span class="lines"></span></a>
+</div>
+
+
+<div id="mainMenu">
+<div class="container">
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about">About Us</a></li>
+<li><a href="productPage">Product</a></li>
+<li><a href="blog">Blog</a></li>
+<li><a href="contact">Contact us</a></li>
+</ul>
+</nav>
+</div>
+ </div>
+
+</div>
+</div>
+</header>
+
+
 <section class="no-padding">
 
 <div class="map" data-latitude="-37.817240" data-longitude="144.955826" data-style="light" data-info="Hello from &lt;br&gt; Inspiro Themes" data-height-lg="500" data-height-xs="200" data-height-sm="300"></div>
 
 </section>
 
+
 <section>
-    <div class="container">
-    <div class="row">
-    <div class="col-lg-6">
-    <h3 class="text-uppercase">Get In Touch</h3>
-    <p>The most happiest time of the day!. Suspendisse condimentum porttitor cursus. Duis nec nulla turpis. Nulla lacinia laoreet odio, non lacinia nisl malesuada vel. Aenean malesuada fermentum bibendum.</p>
-    <div class="m-t-30">
-    <div class="row">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<h3 class="text-uppercase">Get In Touch</h3>
+<p>The most happiest time of the day!. Suspendisse condimentum porttitor cursus. Duis nec nulla turpis. Nulla lacinia laoreet odio, non lacinia nisl malesuada vel. Aenean malesuada fermentum bibendum.</p>
+<p>The most happiest time of the day!. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.</p>
+<div class="row m-t-40">
+<div class="col-lg-6">
+<address>
+<strong>Nijanand Pipes Corporate Office.</strong><br>
+S16, Turning Point, Opp Pushkardham Temple
+Kalawad Road, Rajkot 360005<br>
+<abbr title="Phone">Phone: +91 91737 33337
+</abbr></address>
+</div>
+<div class="col-lg-6">
+<address>
+<strong>Nijanand Pipes Factory Address </strong><br>
+Survey No.28, Shivam Industrial Estate Vavdi,
+B/h Krishna Park Hotel, Gondal Rd, Rajkot,
+360004<br>
+<!-- <abbr title="Phone">P: (123) 456-7890 </abbr>-->
+</address>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<form class="widget-contact-form" novalidate="" action="include/contact-form.php" role="form" method="post">
+<div class="row">
+<div class="form-group col-md-6">
+<label for="name">Name</label>
+<input type="text" aria-required="true" required="" name="widget-contact-form-name" class="form-control required name" placeholder="Enter your Name">
+</div>
+<div class="form-group col-md-6">
+    <label for="phone">Phone</label>
+    <input type="number" aria-required="true" required="" name="widget-contact-form-name" class="form-control required name" placeholder="Enter your Phone">
+    </div>
+<div class="form-group col-md-6">
+<label for="email">Email</label>
+<input type="email" aria-required="true" required="" name="widget-contact-form-email" class="form-control required email" placeholder="Enter your Email">
+</div>
+<div class="form-group col-md-6">
+    <label for="state">Inquiry About</label>
+    <select name="Inquiry" class="form-control" required="">
+    <option value="">Inquiry</option>
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+    </select>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-12">
+<label for="subject">Your Subject</label>
+<input type="text" name="widget-contact-form-subject" required="" class="form-control required" placeholder="Subject...">
+</div>
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea type="text" name="widget-contact-form-message" required="" rows="5" class="form-control required" placeholder="Enter your Message"></textarea>
+</div>
 
-        <div class="form-group col-md-6">
-            <label for="name">Name</label>
-            <input type="text" aria-required="true" name="widget-contact-form-email" required="" class="form-control required email" placeholder="Enter your Email">
-            </div>
-        <div class="form-group col-md-6">
-                <label for="email">Mobile</label>
-                <input type="phone" aria-required="true" name="widget-contact-form-email" required="" class="form-control required email" placeholder="Enter your Email">
-                </div>
-    <div class="form-group col-md-6">
-    <label for="email">Email</label>
-    <input type="email" aria-required="true" name="widget-contact-form-email" required="" class="form-control required email" placeholder="Enter your Email">
-    </div>
-    <div class="form-group col-md-6">
-        <label for="state">Inquiry About</label>
-        <select name="Inquiry" class="form-control" required="">
-        <option value="">Inquiry</option>
-        <option>Option 1</option>
-        <option>Option 2</option>
-        <option>Option 3</option>
-        </select>
-    </div>
-    </div>
-    <div class="form-group">
-    <label for="message">Message</label>
-    <textarea type="text" name="widget-contact-form-message" required="" rows="5" class="form-control required" placeholder="Enter your Message"></textarea>
-    </div>
-    
-    <button class="btn" (click) ="sendMessage()" ><i class="fa fa-paper-plane"></i>&nbsp;Send message</button>
-
-
-
-        <div class="form-fields">
-            <input type="submit" value="Login" class="submit" (click) ="sendMessage()" />
-        </div>
- 
-
-    </div>
-    </div>
-    <div class="col-lg-6">
-    <h3 class="text-uppercase">Address</h3>
-    <div class="row">
-    <div class="col-lg-6">
-     <address>
-    <strong>Polo, Inc.</strong><br>
-    795 Folsom Ave, Suite 600<br>
-    San Francisco, CA 94107<br>
-    <abbr title="Phone">P: (123) 456-7890
-    </abbr></address>
-    </div>
-    <div class="col-lg-6">
-    <address>
-    <strong>Polo Office</strong><br>
-    795 Folsom Ave, Suite 600<br>
-    San Francisco, CA 94107<br>
-    <abbr title="Phone">P: (123) 456-7890
-    </abbr></address>
-    </div>
-    </div>
-    
-    <!-- <div class="map" data-latitude="-37.817240" data-longitude="144.955826" data-style="light" data-info="Hello from &lt;br&gt; Inspiro Themes"></div> -->
-    
-    </div>
-    </div>
-    </div>
-    </section> 
-
+<button class="btn" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Send message</button>
+</form>
+</div>
+</div>
+</div>
+</section> 
 </div> 
 
 <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
-
 </body>
 </html>
 <app-footer></app-footer>

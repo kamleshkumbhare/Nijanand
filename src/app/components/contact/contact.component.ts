@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
-  public nameValue : any;
+
 
   constructor(
     private router : Router,
@@ -15,11 +15,14 @@ export class ContactComponent {
 
   ngOnInit(): void {
 
+  
+
   }
+
   sendMessage(){
     console.log(">>>>>>>>>>>>>>>>>>")
     alert("ddddddddd")
-    console.log(this.nameValue)
+
   }
 
 }

@@ -5,12 +5,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContactComponent } from '../app/components/contact/contact.component'
 import { HomeComponent } from '../app/components/home/home.component'
 import { AboutComponent } from '../app/components/about/about.component'
-import { ProductComponent } from '../app/components/Product/product.component'
 import { GlobalPresenceComponent } from '../app/components/global-presence/global-presence.component'
 
 //Sub Product ROuting
 import { CPVCComponent } from '../app/components/Product/cpvc/cpvc.component'
 import { PortfolioComponent } from '../app/components/portfolio/portfolio.component'
+import { ProductPageComponent } from '../app/components/Product/product-page/product-page.component'
 
 const routes: Routes = [{
   path: '',
@@ -25,10 +25,6 @@ const routes: Routes = [{
   component: AboutComponent,
 },
 {
-  path: 'product',
-  component: ProductComponent,
-},
-{
   path: 'global',
   component: GlobalPresenceComponent,
 },
@@ -39,6 +35,10 @@ const routes: Routes = [{
 {
   path: 'p',
   component: PortfolioComponent,
+},
+{
+  path: 'productPage',
+  component: ProductPageComponent,
 }
 ];
 
