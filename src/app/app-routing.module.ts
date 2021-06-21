@@ -12,6 +12,9 @@ import { CPVCComponent } from '../app/components/Product/cpvc/cpvc.component'
 import { PortfolioComponent } from '../app/components/portfolio/portfolio.component'
 import { ProductPageComponent } from '../app/components/Product/product-page/product-page.component'
 
+//Login Page
+import { LoginPageComponent } from '../app/components/login-page/login-page.component'
+
 const routes: Routes = [{
   path: '',
   component: HomeComponent,
@@ -39,6 +42,10 @@ const routes: Routes = [{
 {
   path: 'productPage',
   component: ProductPageComponent,
+},
+{
+  path: 'login',
+  component: LoginPageComponent,
 }
 ];
 

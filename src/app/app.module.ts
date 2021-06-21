@@ -19,7 +19,10 @@ import { SWRComponent } from './components/Product/RigidPvc/swr/swr.component';
 import { AgriPipesComponent } from './components/Product/RigidPvc/agri-pipes/agri-pipes.component';
 import { GlobalPresenceComponent } from './components/global-presence/global-presence.component';
 import { ProductPageComponent } from './components/Product/product-page/product-page.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -39,11 +42,14 @@ import { ProductPageComponent } from './components/Product/product-page/product-
     SWRComponent,
     AgriPipesComponent,
     GlobalPresenceComponent,
-    ProductPageComponent
+    ProductPageComponent,
+    LoginPageComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

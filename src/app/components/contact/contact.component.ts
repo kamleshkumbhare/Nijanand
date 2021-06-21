@@ -8,6 +8,14 @@ import { Router } from '@angular/router';
 })
 export class ContactComponent {
 
+  public nameValue : any;
+  public phoneValue : any;
+  public emailValue : any;
+  public subjectValue : any;
+  public inquiryValue : any;
+  public messageValue : any;
+
+
 
   constructor(
     private router : Router,
@@ -20,8 +28,16 @@ export class ContactComponent {
   }
 
   sendMessage(){
-    console.log(">>>>>>>>>>>>>>>>>>")
-    alert("ddddddddd")
+    console.log("?>>>>>>>>>>>>>")
+    var contact = {
+      "name" : this.emailValue,
+      "phone" : this.phoneValue,
+      "email" : this.emailValue,
+      "sunject" : this.messageValue,
+      "inq" : this.inquiryValue,
+      "message" : this.messageValue,
+    };
+    console.log(contact)
 
   }
 

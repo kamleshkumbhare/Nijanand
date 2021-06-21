@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<div class="body-inner">
+<section class="fullscreen" data-bg-parallax="assets/images/pages/1.jpg">
+<div class="container">
+<div>
+<a href="index.html" class="logo">
+</a>
+</div>
+<div class="row">
+<div class="col-lg-5 center p-50 background-white b-r-6">
+<h3>Login to your Account</h3>
+<div class="logo-forms">
+    <div class="form-group">
+        <label>Email</label>
+        <input type="text" placeholder="enter your email" name="email" [(ngModel)]="emailValue" />
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" placeholder="password" name="password" [(ngModel)]="passwordValue" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Login" (click) ="login()" class="submit" />
+    </div>
+</div>
+<p class="small">Don't have an account yet? <a href="#">Register New Account</a>
+</p>
+</div>
+</div>
+</div>
+</section>
+
+</div>
+
+
+
+</body>
+</html>
