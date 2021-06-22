@@ -23,6 +23,7 @@ import { LoginPageComponent } from './components/login-page/login-page.component
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 import { FormsModule } from '@angular/forms';
+import { AddBlogComponent } from './components/dashboard/add-blog/add-blog.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { FormsModule } from '@angular/forms';
     GlobalPresenceComponent,
     ProductPageComponent,
     LoginPageComponent,
-    DashboardComponent
+    DashboardComponent,
+    AddBlogComponent
   ],
   imports: [
     BrowserModule,
