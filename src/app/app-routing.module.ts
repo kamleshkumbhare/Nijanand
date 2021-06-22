@@ -16,6 +16,9 @@ import { ProductPageComponent } from '../app/components/Product/product-page/pro
 import { LoginPageComponent } from '../app/components/login-page/login-page.component'
 import { DashboardComponent } from '../app/components/dashboard/dashboard.component'
 
+//Dashboard Panel
+import { AddBlogComponent } from '../app/components/dashboard/add-blog/add-blog.component'
+
 const routes: Routes = [{
   path: '',
   component: HomeComponent,
@@ -51,6 +54,10 @@ const routes: Routes = [{
 {
   path: 'dashboard',
   component: DashboardComponent,
+},
+{
+  path: 'addBlog',
+  component: AddBlogComponent,
 }
 ];
 
