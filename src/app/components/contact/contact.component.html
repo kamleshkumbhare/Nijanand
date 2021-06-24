@@ -3,50 +3,93 @@
 <body>
 
 <div class="body-inner">
+    <div id="topbar" class="topbar-transparent topbar-fullwidth dark d-none d-xl-block d-lg-block">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+        <ul class="top-menu">
+        <li><a href="#">Phone: +1 (234) 567-890</a></li>
+        <li><a href="#">Email: contact@inspiro-media.com</a></li>
+        </ul>
+        </div>
+        <div class="col-md-6 d-none d-sm-block">
+        <div class="social-icons social-icons-colored-hover">
+        <ul>
+        <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
 
-<header id="header" data-fullwidth="true">
-<div class="header-inner">
-<div class="container">
+<!-- Header -->
+<header id="header" data-transparent="false" data-fullwidth="true" class="dark submenu-light">
+    <div class="header-inner">
+    <div class="container">
+    
+    <div id="logo">
+    <a href="index.html">
+        <div>
+            <img class="image" src="assets\images\logo2.png"  height ="30%" width="32%">
 
-<div id="logo">
-<a href="index.html">
-    <div>
-        <img class="image" src="assets\images\logo3.png"  height ="30%" width="32%">
-
+        </div>
+    </a>
     </div>
-</a>
-</div>
-
-
-<div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
-<form class="search-form" action="search-results-page.html" method="get">
-<input class="form-control" name="q" type="text" placeholder="Type & Search...">
-<span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
-</form>
-</div>
-
-<div id="mainMenu-trigger">
-<a class="lines-button x"><span class="lines"></span></a>
-</div>
-
-
-<div id="mainMenu">
-<div class="container">
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about">About Us</a></li>
-<li><a href="productPage">Product</a></li>
-<li><a href="blog">Blog</a></li>
-<li><a href="contact">Contact us</a></li>
-</ul>
-</nav>
-</div>
- </div>
-
-</div>
-</div>
+    
+    
+    <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
+    <form class="search-form" action="search-results-page.html" method="get">
+    <input class="form-control" name="q" type="text" placeholder="Type & Search...">
+    <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+    </form>
+    </div>
+    
+    
+    <div class="header-extras">
+    <ul>
+    <li>
+    <a id="btn-search" href="#"> <i class="icon-search"></i></a>
+    </li>
+    <li>
+    <div class="p-dropdown">
+    <a href="#"><i class="icon-globe"></i><span>EN</span></a>
+    <ul class="p-dropdown-content">
+    <li><a href="#">French</a></li>
+    <li><a href="#">Spanish</a></li>
+    <li><a href="#">English</a></li>
+    </ul>
+    </div>
+    </li>
+    </ul>
+    </div>
+    
+    
+    <div id="mainMenu-trigger">
+    <a class="lines-button x"><span class="lines"></span></a>
+    </div>
+    
+    
+    <div id="mainMenu">
+    <div class="container">
+    <nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about-us">About Us</a></li>
+    <li><a href="products">Product</a></li>
+    <li><a href="global-presence">Global Presence</a></li>    
+    <li><a href="blogs">Blog</a></li>
+    <li><a href="contact-us">Contact us</a></li>
+    </ul>
+    </nav>
+    </div>
+    </div>
+    
+    </div>
+    </div>
 </header>
+<!-- Header Ends -->
 
 
 <section class="no-padding">
@@ -61,8 +104,9 @@
 <div class="row">
 <div class="col-lg-6">
 <h3 class="text-uppercase">Get In Touch</h3>
-<p>The most happiest time of the day!. Suspendisse condimentum porttitor cursus. Duis nec nulla turpis. Nulla lacinia laoreet odio, non lacinia nisl malesuada vel. Aenean malesuada fermentum bibendum.</p>
-<p>The most happiest time of the day!. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.</p>
+<p>Are you looking for efficient, reasonable, and standardized plumbing systems for your home?</p>
+<p>Nijanand PVC Pipes and Fittings is the one-stop solution to cater to all your plumbing needs, be it commercial, industrial, chemical, or drainage systems.</p>
+<p>Contact us now, for a long-lasting setup of a plumbing system</p>
 <div class="row m-t-40">
 <div class="col-lg-6">
 <address>
@@ -116,17 +160,17 @@ B/h Krishna Park Hotel, Gondal Rd, Rajkot,
     <div class="form-group">
         <label for="state">Inquiry About</label>
         <select name="Inquiry" class="form-control" required="" [(ngModel)]="inquiryValue">
-        <option value="">Inquiry</option>
-        <option>Option 1</option>
-        <option>Option 2</option>
-        <option>Option 3</option>
+        <option value="">CPVC Pipes</option>
+        <option>uPVC Pipes</option>
+        <option>Rigid PVC Pipes</option>
+        <option>HDPE Pipes</option>
         </select>
     </div>
     </div>
 <div class="form-group col-md-6">
 <div class="form-group">
 <label for="message">Message</label>
-<textarea type="text" name="widget-contact-form-message" required="" rows="5" class="form-control required" placeholder="Enter your Message" [(ngModel)]="messageValue"></textarea>
+<textarea type="text" name="widget-contact-form-message" required="" rows="5" class="form-control required" placeholder="Enter your Message"  [(ngModel)]="messageValue"></textarea>
 </div>
 <div class="form-group">
     <input type="submit" value="Send message" (click)="sendMessage()" class="btn" />

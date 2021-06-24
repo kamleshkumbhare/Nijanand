@@ -24,15 +24,15 @@ const routes: Routes = [{
   component: HomeComponent,
 },
 {
-  path: 'contact',
+  path: 'contact-us',
   component: ContactComponent,
 },
 {
-  path: 'about',
+  path: 'about-us',
   component: AboutComponent,
 },
 {
-  path: 'global',
+  path: 'global-presence',
   component: GlobalPresenceComponent,
 },
 {
@@ -44,7 +44,7 @@ const routes: Routes = [{
   component: PortfolioComponent,
 },
 {
-  path: 'productPage',
+  path: 'products',
   component: ProductPageComponent,
 },
 {

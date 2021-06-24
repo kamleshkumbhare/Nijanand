@@ -3,148 +3,249 @@
 <body>
 
 <div class="body-inner">
-<!-- Header Start -->
-<header id="header" data-fullwidth="true" data-transparent="true" class="dark submenu-light">
-<div class="header-inner">
-<div class="container">
 
-<div id="logo">
-<a href="index.html">
-    <div>
-        <img class="image" src="assets\images\logo2.png"  height ="30%" width="32%">
+    <div id="topbar" class="topbar-transparent topbar-fullwidth dark d-none d-xl-block d-lg-block">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+        <ul class="top-menu">
+        <li><a href="#">Phone: +1 (234) 567-890</a></li>
+        <li><a href="#">Email: contact@inspiro-media.com</a></li>
+        </ul>
+        </div>
+        <div class="col-md-6 d-none d-sm-block">
+        <div class="social-icons social-icons-colored-hover">
+        <ul>
+        <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+<!-- Header -->
+<header id="header" data-transparent="true" data-fullwidth="true" class="dark submenu-dark">
+    <div class="header-inner">
+    <div class="container">
+    
+    <div id="logo">
+    <a href="index.html">
+        <div>
+            <img class="image" src="assets\images\logo2.png"  height ="30%" width="32%">
 
+        </div>
+    </a>
     </div>
-</a>
-</div>
-
-<div id="mainMenu-trigger">
-<a class="lines-button x"><span class="lines"></span></a>
-</div>
-
-
-<div id="mainMenu">
-<div class="container">
-<nav>
-<ul>
-<li><a href="/">Home</a></li>
-<li><a href="about">About Us</a></li>
-<li><a href="productPage">Product</a></li>
-<li><a href="blog">Blog</a></li>
-<li><a href="contact">Contact us</a></li>
-</ul>
-</nav>
-</div>
-</div>
-
-</div>
-</div>
+    
+    
+    <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
+    <form class="search-form" action="search-results-page.html" method="get">
+    <input class="form-control" name="q" type="text" placeholder="Type & Search...">
+    <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+    </form>
+    </div>
+    
+    
+    <div class="header-extras">
+    <ul>
+    <li>
+    <a id="btn-search" href="#"> <i class="icon-search"></i></a>
+    </li>
+    <li>
+    <div class="p-dropdown">
+    <a href="#"><i class="icon-globe"></i><span>EN</span></a>
+    <ul class="p-dropdown-content">
+    <li><a href="#">French</a></li>
+    <li><a href="#">Spanish</a></li>
+    <li><a href="#">English</a></li>
+    </ul>
+    </div>
+    </li>
+    </ul>
+    </div>
+    
+    
+    <div id="mainMenu-trigger">
+    <a class="lines-button x"><span class="lines"></span></a>
+    </div>
+    
+    
+    <div id="mainMenu">
+    <div class="container">
+    <nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about-us">About Us</a></li>
+    <li><a href="products">Product</a></li>
+    <li><a href="global-presence">Global Presence</a></li>    
+    <li><a href="blogs">Blog</a></li>
+    <li><a href="contact-us">Contact us</a></li>
+    </ul>
+    </nav>
+    </div>
+    </div>
+    
+    </div>
+    </div>
 </header>
-<!-- Header End -->
+<!-- Header Ends -->
 
-<!-- Product Title Start -->
-<section id="page-title" class="text-light" data-bg-parallax="assets/images/parallax/6.jpg">
+
+
+<section id="page-title">
 <div class="container">
 <div class="page-title">
-    <h1 class="text-uppercase text-medium"> Our Products</h1>
+<h1>Modal</h1>
+<span>Inspiration comes of working every day.</span>
+</div>
+<div class="breadcrumb">
+<ul>
+<li><a href="#">Home</a> </li>
+<li><a href="#">Shortcodes</a> </li>
+<li class="active"><a href="#">Modal</a> </li>
+</ul>
 </div>
 </div>
 </section>
-<!-- Product Title End -->
 
-<!-- Page Content Start-->
+<div>
+    <P>skdhsjk</P>
+</div>
+<div class="modal fade" id="modal" tabindex="-1" role="modal" aria-labelledby="modal-label" aria-hidden="false" style="display: none;">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="modal-label">Medium Modal</h4>
+<div>
+    <P>skdhsjk</P>
+</div>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-md-12">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium atque architecto
+quae ullam rem labore veritatis temporibus asperiores, ad eaque odit commodi
+inventore dolore perspiciatis, nam dicta est eos id quod excepturi.</p>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-b" data-dismiss="modal">Close</button>
+<button type="button" class="btn btn-b">Save Changes</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="modal-2" tabindex="-1" role="modal" aria-labelledby="modal-label-2" aria-hidden="true">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+<div class="modal-header">
+<h4 id="modal-label-2" class="modal-title">Small Modal</h4>
+<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+</div>
+<div>
+    <P>skdhsjk</P>
+</div>
+<div class="modal-body">
+<div class="row">
+
+
+<div class="col-md-12">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium atque architecto
+quae ullam rem labore veritatis.</p>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<div class="float-left">
+<button data-dismiss="modal" class="btn btn-b" type="button">Close</button> 
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="modal-3" tabindex="-1" role="modal" aria-labelledby="modal-label-3" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 id="modal-label-3" class="modal-title">Large Modal</h4>
+<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+</div>
+<div class="modal-body">
+<div class="row mb20">
+<div class="col-md-12">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium atque architecto
+quae ullam rem labore veritatis temporibus asperiores, ad eaque odit commodi
+inventore dolore perspiciatis, nam dicta est eos id quod excepturi.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 xs-box">
+<div class="box-services-a">
+<h3>Fast processing code</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis maiores
+repudiandae, accusantium reiciendis!</p>
+</div>
+</div>
+<div class="col-md-6">
+<div class="box-services-a">
+<h3>Endless variations</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis maiores
+repudiandae, accusantium reiciendis!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button data-dismiss="modal" class="btn btn-b" type="button">Close</button>
+<button class="btn btn-b" type="button">Save Changes</button>
+</div>
+</div>
+</div>
+</div>
+
+
 <section id="page-content">
 <div class="container">
-<hr class="space">
-
-<!-- Column Start -->
-<div class="portfolio-3-columns">
-
-<div class="portfolio-item revert img-zoom ct-photography ct-media ct-branding ct-Media">
-<div class="portfolio-item-wrap">
-<a class="portfolio-item-link" href="/cpvc"></a>
-<div class="portfolio-image">
-<img src="assets\images\portfolio\60.jpg" alt="">
-</div>
-<div class="portfolio-description">
-<a href="portfolio-page-grid-gallery.html">
-<h3>Let's Go Outside</h3>
-<span>Illustrations / Graphics</span>
-</a>
-</div>
-</div>
-</div>
-
-
-<div class="portfolio-item revert img-zoom ct-photography ct-media ct-branding ct-Media">
-<div class="portfolio-item-wrap">
-<a class="portfolio-item-link" href="portfolio-page-grid-gallery.html"></a>
-<div class="portfolio-image">
-<a href="portfolio-page-grid-gallery.html"><img src="assets\images\portfolio\61.jpg" alt=""></a>
-</div>
-<div class="portfolio-description">
-<a href="portfolio-page-grid-gallery.html">
-<h3>Let's Go Outside</h3>
-<span>Illustrations / Graphics</span>
-</a>
-</div>
-</div>
+<div class="row">
+<div class="content col-lg-9">
+<h3>Small Modal</h3>
+<p>Beautiful nature, and rare feathers!. Morbi sagittis, sem quis lacinia faucibus, orci ipsum
+gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id
+molestievolutpat. </p>
+<a class="btn" data-target="#modal-2" data-toggle="modal" href="#">Small Modal</a>
+<div class="line"></div>
+<h3>Medium Modal</h3>
+<p>Beautiful nature, and rare feathers!. Morbi sagittis, sem quis lacinia faucibus, orci ipsum
+gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id
+molestievolutpat. </p>
+<a class="btn" data-target="#modal" data-toggle="modal" href="#">Medium Modal</a>
+<div class="line"></div>
+<h3>Large Modal</h3>
+<p>Beautiful nature, and rare feathers!. Morbi sagittis, sem quis lacinia faucibus, orci ipsum
+gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id
+molestievolutpat. </p>
+<a class="btn" data-target="#modal-3" data-toggle="modal" href="#">Large Modal</a>
 </div>
 
 
-<div class="portfolio-item revert img-zoom ct-photography ct-media ct-branding ct-Media">
-<div class="portfolio-item-wrap">
-<a class="portfolio-item-link" href="portfolio-page-grid-gallery.html"></a>
-<div class="portfolio-image">
-<a href="portfolio-page-grid-gallery.html"><img src="assets\images\portfolio\62.jpg" alt=""></a>
-</div>
-<div class="portfolio-description">
-<a href="portfolio-page-grid-gallery.html">
-<h3>Let's Go Outside</h3>
-<span>Illustrations / Graphics</span>
-</a>
 </div>
 </div>
-</div>
+</section>
 
-<div class="portfolio-item revert img-zoom ct-photography ct-media ct-branding ct-Media">
-    <div class="portfolio-item-wrap">
-    <a class="portfolio-item-link" href=""></a>
-    <div class="portfolio-image">
-    <a href="portfolio-page-grid-gallery.html"><img src="" alt=""></a>
-    </div>
-    <div class="portfolio-description">
-    <a href="portfolio-page-grid-gallery.html">
-    <h3></h3>
-    <span></span>
-    </a>
-    </div>
-    </div>
-    </div>
 
-<div class="portfolio-item revert img-zoom ct-photography ct-media ct-branding ct-Media">
-    <div class="portfolio-item-wrap">
-    <a class="portfolio-item-link" href="portfolio-page-grid-gallery.html"></a>
-    <div class="portfolio-image">
-    <a href="portfolio-page-grid-gallery.html"><img src="assets\images\portfolio\62.jpg" alt=""></a>
-    </div>
-    <div class="portfolio-description">
-    <a href="portfolio-page-grid-gallery.html">
-    <h3>Let's Go Outside</h3>
-    <span>Illustrations / Graphics</span>
-    </a>
-    </div>
-    </div>
-    </div>
+<app-footer></app-footer>
 
 </div>
-<!-- Column Start Ends-->
 
-</div>
-</section>  -->
-<!-- Page Content Ends-->
 
-</div>
 <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+
 </body>
 </html>
-<app-footer></app-footer>

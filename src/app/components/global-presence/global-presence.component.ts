@@ -10,6 +10,7 @@ export class GlobalPresenceComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

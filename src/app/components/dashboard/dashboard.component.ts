@@ -23,4 +23,8 @@ export class DashboardComponent implements OnInit {
     }
   }
 
+  addRecord(){
+    this.router.navigate(["/addBlog"])
+  }
+
 }
